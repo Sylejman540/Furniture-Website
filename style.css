@@ -1,0 +1,114 @@
+body{
+    font-family: Montserrat;
+}
+
+
+.banner-image{
+    background-image: url(images/Banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.banner{
+    background-color: #DFE9F4;
+}
+
+.banner h2{
+    color: #333333;
+}
+
+.banner h1{
+    color: #054C73;
+}
+
+.logo-h1{
+    color: #054C73;
+}
+
+.banner-btn{
+    background-color: #054C73;
+    color: #FFFF;
+}
+
+.work{
+    background-color: #F2F5FF;
+    font-family: Montserrat;
+}
+
+.collection{
+    font-family: Montserrat;
+}
+
+.collection span{
+    color: #666666;
+}
+
+.beautify-left p{
+    color: #666666;
+    line-height: 2;
+}
+
+.beautify-left{
+    font-family: Montserrat;
+    align-items: center;
+}
+
+.beautify{
+    background-color: #F2F5FF;
+}
+
+.half-ellipse {
+    clip-path: inset(0 0 0 50%);
+}
+
+.browse{
+    font-family: Montserrat;
+}
+
+.dining h2{
+    color: #333333;
+}
+
+.browse p{
+    color: #666666;
+}
+
+.banner-p p{
+    color: #666666;
+}
+
+.contact{
+    font-family: Montserrat;
+    background-color: #F2F5FF;
+}
+
+.contact p{
+    color: #666666;
+}
+
+input{
+    border: 1px solid #054C73;
+}
+
+.contact-btn{
+    background-color: #054C73;
+    color: white;
+}
+
+.footer{
+    background-color: #03344F;
+    color: #FFFF;
+}
+
+#menu{
+    line-height: 2;
+}
+
+@media only screen and (max-width: 768px){
+
+    .banner{
+        display: grid;
+        
+    }
+}
